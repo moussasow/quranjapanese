@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B5EC86995B573605213FF24 /* Pods_Japanese_Quran_Translation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A726C8C7C00A1864924466AF /* Pods_Japanese_Quran_Translation.framework */; };
+		8B27109F200641A300570E2C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B27109E200641A300570E2C /* Helper.swift */; };
+		8B2710A120099A1100570E2C /* CMTime+Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2710A020099A1100570E2C /* CMTime+Duration.swift */; };
+		8B3986DB1FFCFBA6000FF1F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3986DA1FFCFBA6000FF1F3 /* AppDelegate.swift */; };
+		8B3986DD1FFCFBA6000FF1F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3986DC1FFCFBA6000FF1F3 /* ViewController.swift */; };
+		8B3986E01FFCFBA6000FF1F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3986DE1FFCFBA6000FF1F3 /* Main.storyboard */; };
+		8B3986E21FFCFBA6000FF1F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B3986E11FFCFBA6000FF1F3 /* Assets.xcassets */; };
+		8B3986E51FFCFBA6000FF1F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3986E31FFCFBA6000FF1F3 /* LaunchScreen.storyboard */; };
+		8B3986F01FFCFBA6000FF1F3 /* Japanese_Quran_TranslationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3986EF1FFCFBA6000FF1F3 /* Japanese_Quran_TranslationTests.swift */; };
+		8B3986FB1FFCFBA6000FF1F3 /* Japanese_Quran_TranslationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3986FA1FFCFBA6000FF1F3 /* Japanese_Quran_TranslationUITests.swift */; };
+		8B39870A1FFD03B6000FF1F3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3987091FFD03B6000FF1F3 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		8B39870C1FFFA6F6000FF1F3 /* SurahCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39870B1FFFA6F6000FF1F3 /* SurahCustomTableViewCell.swift */; };
+		8B39870E1FFFAAC3000FF1F3 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39870D1FFFAAC3000FF1F3 /* RestApiManager.swift */; };
+		8B3987101FFFAAF1000FF1F3 /* SurahModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39870F1FFFAAF1000FF1F3 /* SurahModel.swift */; };
+		8B3987122001DB12000FF1F3 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3987112001DB12000FF1F3 /* PlayerViewController.swift */; };
+		8BA0A2B620122AD200D72F7E /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA0A2B520122AD200D72F7E /* VideoViewController.swift */; };
+		8EADEC06EDFE5BFA934D8B8D /* Pods_Japanese_Quran_TranslationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DB11FC2A9F1E043262E7CC /* Pods_Japanese_Quran_TranslationUITests.framework */; };
+		934A02DDEABEEC44A4025F37 /* Pods_Japanese_Quran_TranslationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC3CD147C5C4431A74C03B3 /* Pods_Japanese_Quran_TranslationTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B3986EC1FFCFBA6000FF1F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B3986CF1FFCFBA6000FF1F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B3986D61FFCFBA6000FF1F3;
+			remoteInfo = "Japanese Quran Translation";
+		};
+		8B3986F71FFCFBA6000FF1F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B3986CF1FFCFBA6000FF1F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B3986D61FFCFBA6000FF1F3;
+			remoteInfo = "Japanese Quran Translation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03702B3F77AD4D3D966D0891 /* Pods-Japanese Quran TranslationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Japanese Quran TranslationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Japanese Quran TranslationUITests/Pods-Japanese Quran TranslationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		15DB11FC2A9F1E043262E7CC /* Pods_Japanese_Quran_TranslationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Japanese_Quran_TranslationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C8779885681F3EC569DE1A /* Pods-Japanese Quran Translation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Japanese Quran Translation.release.xcconfig"; path = "Pods/Target Support Files/Pods-Japanese Quran Translation/Pods-Japanese Quran Translation.release.xcconfig"; sourceTree = "<group>"; };
+		237E0CB8343C3C68AF458A60 /* Pods-Japanese Quran TranslationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Japanese Quran TranslationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Japanese Quran TranslationTests/Pods-Japanese Quran TranslationTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A983EA576137C955E5AB5BA /* Pods-Japanese Quran Translation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Japanese Quran Translation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Japanese Quran Translation/Pods-Japanese Quran Translation.debug.xcconfig"; sourceTree = "<group>"; };
+		5BC3CD147C5C4431A74C03B3 /* Pods_Japanese_Quran_TranslationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Japanese_Quran_TranslationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		798D636C20735A5A280E060B /* Pods-Japanese Quran TranslationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Japanese Quran TranslationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Japanese Quran TranslationUITests/Pods-Japanese Quran TranslationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B27109E200641A300570E2C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		8B2710A020099A1100570E2C /* CMTime+Duration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMTime+Duration.swift"; sourceTree = "<group>"; };
+		8B3986D71FFCFBA6000FF1F3 /* Japanese Quran Translation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Japanese Quran Translation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3986DA1FFCFBA6000FF1F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B3986DC1FFCFBA6000FF1F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B3986DF1FFCFBA6000FF1F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B3986E11FFCFBA6000FF1F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B3986E41FFCFBA6000FF1F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B3986E61FFCFBA6000FF1F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3986EB1FFCFBA6000FF1F3 /* Japanese Quran TranslationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Japanese Quran TranslationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3986EF1FFCFBA6000FF1F3 /* Japanese_Quran_TranslationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japanese_Quran_TranslationTests.swift; sourceTree = "<group>"; };
+		8B3986F11FFCFBA6000FF1F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3986F61FFCFBA6000FF1F3 /* Japanese Quran TranslationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Japanese Quran TranslationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3986FA1FFCFBA6000FF1F3 /* Japanese_Quran_TranslationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japanese_Quran_TranslationUITests.swift; sourceTree = "<group>"; };
+		8B3986FC1FFCFBA6000FF1F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3987091FFD03B6000FF1F3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8B39870B1FFFA6F6000FF1F3 /* SurahCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahCustomTableViewCell.swift; sourceTree = "<group>"; };
+		8B39870D1FFFAAC3000FF1F3 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		8B39870F1FFFAAF1000FF1F3 /* SurahModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahModel.swift; sourceTree = "<group>"; };
+		8B3987112001DB12000FF1F3 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		8BA0A2B520122AD200D72F7E /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		A726C8C7C00A1864924466AF /* Pods_Japanese_Quran_Translation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Japanese_Quran_Translation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0ED1C94E6333193CDA5BB1F /* Pods-Japanese Quran TranslationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Japanese Quran TranslationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Japanese Quran TranslationTests/Pods-Japanese Quran TranslationTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B3986D41FFCFBA6000FF1F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B39870A1FFD03B6000FF1F3 /* AVFoundation.framework in Frameworks */,
+				7B5EC86995B573605213FF24 /* Pods_Japanese_Quran_Translation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3986E81FFCFBA6000FF1F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934A02DDEABEEC44A4025F37 /* Pods_Japanese_Quran_TranslationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3986F31FFCFBA6000FF1F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EADEC06EDFE5BFA934D8B8D /* Pods_Japanese_Quran_TranslationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B3986CE1FFCFBA6000FF1F3 = {
+			isa = PBXGroup;
+			children = (
+				8B3986D91FFCFBA6000FF1F3 /* Japanese Quran Translation */,
+				8B3986EE1FFCFBA6000FF1F3 /* Japanese Quran TranslationTests */,
+				8B3986F91FFCFBA6000FF1F3 /* Japanese Quran TranslationUITests */,
+				8B3986D81FFCFBA6000FF1F3 /* Products */,
+				8B3987081FFD03B6000FF1F3 /* Frameworks */,
+				FF83C9F1F68092BC9F8A2C8E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8B3986D81FFCFBA6000FF1F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B3986D71FFCFBA6000FF1F3 /* Japanese Quran Translation.app */,
+				8B3986EB1FFCFBA6000FF1F3 /* Japanese Quran TranslationTests.xctest */,
+				8B3986F61FFCFBA6000FF1F3 /* Japanese Quran TranslationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B3986D91FFCFBA6000FF1F3 /* Japanese Quran Translation */ = {
+			isa = PBXGroup;
+			children = (
+				8B3986DA1FFCFBA6000FF1F3 /* AppDelegate.swift */,
+				8B3986DC1FFCFBA6000FF1F3 /* ViewController.swift */,
+				8B3987112001DB12000FF1F3 /* PlayerViewController.swift */,
+				8BA0A2B520122AD200D72F7E /* VideoViewController.swift */,
+				8B39870B1FFFA6F6000FF1F3 /* SurahCustomTableViewCell.swift */,
+				8B39870D1FFFAAC3000FF1F3 /* RestApiManager.swift */,
+				8B39870F1FFFAAF1000FF1F3 /* SurahModel.swift */,
+				8B27109E200641A300570E2C /* Helper.swift */,
+				8B2710A020099A1100570E2C /* CMTime+Duration.swift */,
+				8B3986DE1FFCFBA6000FF1F3 /* Main.storyboard */,
+				8B3986E11FFCFBA6000FF1F3 /* Assets.xcassets */,
+				8B3986E31FFCFBA6000FF1F3 /* LaunchScreen.storyboard */,
+				8B3986E61FFCFBA6000FF1F3 /* Info.plist */,
+			);
+			path = "Japanese Quran Translation";
+			sourceTree = "<group>";
+		};
+		8B3986EE1FFCFBA6000FF1F3 /* Japanese Quran TranslationTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B3986EF1FFCFBA6000FF1F3 /* Japanese_Quran_TranslationTests.swift */,
+				8B3986F11FFCFBA6000FF1F3 /* Info.plist */,
+			);
+			path = "Japanese Quran TranslationTests";
+			sourceTree = "<group>";
+		};
+		8B3986F91FFCFBA6000FF1F3 /* Japanese Quran TranslationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B3986FA1FFCFBA6000FF1F3 /* Japanese_Quran_TranslationUITests.swift */,
+				8B3986FC1FFCFBA6000FF1F3 /* Info.plist */,
+			);
+			path = "Japanese Quran TranslationUITests";
+			sourceTree = "<group>";
+		};
+		8B3987081FFD03B6000FF1F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B3987091FFD03B6000FF1F3 /* AVFoundation.framework */,
+				A726C8C7C00A1864924466AF /* Pods_Japanese_Quran_Translation.framework */,
+				5BC3CD147C5C4431A74C03B3 /* Pods_Japanese_Quran_TranslationTests.framework */,
+				15DB11FC2A9F1E043262E7CC /* Pods_Japanese_Quran_TranslationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF83C9F1F68092BC9F8A2C8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A983EA576137C955E5AB5BA /* Pods-Japanese Quran Translation.debug.xcconfig */,
+				19C8779885681F3EC569DE1A /* Pods-Japanese Quran Translation.release.xcconfig */,
+				B0ED1C94E6333193CDA5BB1F /* Pods-Japanese Quran TranslationTests.debug.xcconfig */,
+				237E0CB8343C3C68AF458A60 /* Pods-Japanese Quran TranslationTests.release.xcconfig */,
+				03702B3F77AD4D3D966D0891 /* Pods-Japanese Quran TranslationUITests.debug.xcconfig */,
+				798D636C20735A5A280E060B /* Pods-Japanese Quran TranslationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B3986D61FFCFBA6000FF1F3 /* Japanese Quran Translation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3986FF1FFCFBA6000FF1F3 /* Build configuration list for PBXNativeTarget "Japanese Quran Translation" */;
+			buildPhases = (
+				79386BB6F5B7B99B88504CBC /* [CP] Check Pods Manifest.lock */,
+				8B3986D31FFCFBA6000FF1F3 /* Sources */,
+				8B3986D41FFCFBA6000FF1F3 /* Frameworks */,
+				8B3986D51FFCFBA6000FF1F3 /* Resources */,
+				115A23C4021C80F348EC3439 /* [CP] Embed Pods Frameworks */,
+				52E165683A11E551421FE266 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Japanese Quran Translation";
+			productName = "Japanese Quran Translation";
+			productReference = 8B3986D71FFCFBA6000FF1F3 /* Japanese Quran Translation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B3986EA1FFCFBA6000FF1F3 /* Japanese Quran TranslationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3987021FFCFBA6000FF1F3 /* Build configuration list for PBXNativeTarget "Japanese Quran TranslationTests" */;
+			buildPhases = (
+				B5304E4DD9B5ED3E0E1202C7 /* [CP] Check Pods Manifest.lock */,
+				8B3986E71FFCFBA6000FF1F3 /* Sources */,
+				8B3986E81FFCFBA6000FF1F3 /* Frameworks */,
+				8B3986E91FFCFBA6000FF1F3 /* Resources */,
+				4AB6E001460A8A337D0C5314 /* [CP] Embed Pods Frameworks */,
+				099CA6D571D53B7B4982D2FB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B3986ED1FFCFBA6000FF1F3 /* PBXTargetDependency */,
+			);
+			name = "Japanese Quran TranslationTests";
+			productName = "Japanese Quran TranslationTests";
+			productReference = 8B3986EB1FFCFBA6000FF1F3 /* Japanese Quran TranslationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B3986F51FFCFBA6000FF1F3 /* Japanese Quran TranslationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3987051FFCFBA6000FF1F3 /* Build configuration list for PBXNativeTarget "Japanese Quran TranslationUITests" */;
+			buildPhases = (
+				4872398B8D879A93BE094581 /* [CP] Check Pods Manifest.lock */,
+				8B3986F21FFCFBA6000FF1F3 /* Sources */,
+				8B3986F31FFCFBA6000FF1F3 /* Frameworks */,
+				8B3986F41FFCFBA6000FF1F3 /* Resources */,
+				3E96BE16BEF4C1A98B50BBD0 /* [CP] Embed Pods Frameworks */,
+				37ED80444B95DDC04913A3F7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B3986F81FFCFBA6000FF1F3 /* PBXTargetDependency */,
+			);
+			name = "Japanese Quran TranslationUITests";
+			productName = "Japanese Quran TranslationUITests";
+			productReference = 8B3986F61FFCFBA6000FF1F3 /* Japanese Quran TranslationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B3986CF1FFCFBA6000FF1F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sow Moussa";
+				TargetAttributes = {
+					8B3986D61FFCFBA6000FF1F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					8B3986EA1FFCFBA6000FF1F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B3986D61FFCFBA6000FF1F3;
+					};
+					8B3986F51FFCFBA6000FF1F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B3986D61FFCFBA6000FF1F3;
+					};
+				};
+			};
+			buildConfigurationList = 8B3986D21FFCFBA6000FF1F3 /* Build configuration list for PBXProject "Japanese Quran Translation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B3986CE1FFCFBA6000FF1F3;
+			productRefGroup = 8B3986D81FFCFBA6000FF1F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B3986D61FFCFBA6000FF1F3 /* Japanese Quran Translation */,
+				8B3986EA1FFCFBA6000FF1F3 /* Japanese Quran TranslationTests */,
+				8B3986F51FFCFBA6000FF1F3 /* Japanese Quran TranslationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B3986D51FFCFBA6000FF1F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3986E51FFCFBA6000FF1F3 /* LaunchScreen.storyboard in Resources */,
+				8B3986E21FFCFBA6000FF1F3 /* Assets.xcassets in Resources */,
+				8B3986E01FFCFBA6000FF1F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3986E91FFCFBA6000FF1F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3986F41FFCFBA6000FF1F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		099CA6D571D53B7B4982D2FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Japanese Quran TranslationTests/Pods-Japanese Quran TranslationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		115A23C4021C80F348EC3439 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Japanese Quran Translation/Pods-Japanese Quran Translation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Japanese Quran Translation/Pods-Japanese Quran Translation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37ED80444B95DDC04913A3F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Japanese Quran TranslationUITests/Pods-Japanese Quran TranslationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E96BE16BEF4C1A98B50BBD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Japanese Quran TranslationUITests/Pods-Japanese Quran TranslationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4872398B8D879A93BE094581 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Japanese Quran TranslationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AB6E001460A8A337D0C5314 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Japanese Quran TranslationTests/Pods-Japanese Quran TranslationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52E165683A11E551421FE266 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Japanese Quran Translation/Pods-Japanese Quran Translation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79386BB6F5B7B99B88504CBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Japanese Quran Translation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5304E4DD9B5ED3E0E1202C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Japanese Quran TranslationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B3986D31FFCFBA6000FF1F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2710A120099A1100570E2C /* CMTime+Duration.swift in Sources */,
+				8B3986DD1FFCFBA6000FF1F3 /* ViewController.swift in Sources */,
+				8BA0A2B620122AD200D72F7E /* VideoViewController.swift in Sources */,
+				8B27109F200641A300570E2C /* Helper.swift in Sources */,
+				8B39870C1FFFA6F6000FF1F3 /* SurahCustomTableViewCell.swift in Sources */,
+				8B3987101FFFAAF1000FF1F3 /* SurahModel.swift in Sources */,
+				8B39870E1FFFAAC3000FF1F3 /* RestApiManager.swift in Sources */,
+				8B3986DB1FFCFBA6000FF1F3 /* AppDelegate.swift in Sources */,
+				8B3987122001DB12000FF1F3 /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3986E71FFCFBA6000FF1F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3986F01FFCFBA6000FF1F3 /* Japanese_Quran_TranslationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3986F21FFCFBA6000FF1F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3986FB1FFCFBA6000FF1F3 /* Japanese_Quran_TranslationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B3986ED1FFCFBA6000FF1F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B3986D61FFCFBA6000FF1F3 /* Japanese Quran Translation */;
+			targetProxy = 8B3986EC1FFCFBA6000FF1F3 /* PBXContainerItemProxy */;
+		};
+		8B3986F81FFCFBA6000FF1F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B3986D61FFCFBA6000FF1F3 /* Japanese Quran Translation */;
+			targetProxy = 8B3986F71FFCFBA6000FF1F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B3986DE1FFCFBA6000FF1F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B3986DF1FFCFBA6000FF1F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B3986E31FFCFBA6000FF1F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B3986E41FFCFBA6000FF1F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B3986FD1FFCFBA6000FF1F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B3986FE1FFCFBA6000FF1F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B3987001FFCFBA6000FF1F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A983EA576137C955E5AB5BA /* Pods-Japanese Quran Translation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X7N8VVW66M;
+				INFOPLIST_FILE = "Japanese Quran Translation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mas.Japanese-Quran-Translation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B3987011FFCFBA6000FF1F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C8779885681F3EC569DE1A /* Pods-Japanese Quran Translation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X7N8VVW66M;
+				INFOPLIST_FILE = "Japanese Quran Translation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mas.Japanese-Quran-Translation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B3987031FFCFBA6000FF1F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0ED1C94E6333193CDA5BB1F /* Pods-Japanese Quran TranslationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X7N8VVW66M;
+				INFOPLIST_FILE = "Japanese Quran TranslationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mas.Japanese-Quran-TranslationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Japanese Quran Translation.app/Japanese Quran Translation";
+			};
+			name = Debug;
+		};
+		8B3987041FFCFBA6000FF1F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 237E0CB8343C3C68AF458A60 /* Pods-Japanese Quran TranslationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X7N8VVW66M;
+				INFOPLIST_FILE = "Japanese Quran TranslationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mas.Japanese-Quran-TranslationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Japanese Quran Translation.app/Japanese Quran Translation";
+			};
+			name = Release;
+		};
+		8B3987061FFCFBA6000FF1F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03702B3F77AD4D3D966D0891 /* Pods-Japanese Quran TranslationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X7N8VVW66M;
+				INFOPLIST_FILE = "Japanese Quran TranslationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mas.Japanese-Quran-TranslationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Japanese Quran Translation";
+			};
+			name = Debug;
+		};
+		8B3987071FFCFBA6000FF1F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798D636C20735A5A280E060B /* Pods-Japanese Quran TranslationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X7N8VVW66M;
+				INFOPLIST_FILE = "Japanese Quran TranslationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mas.Japanese-Quran-TranslationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Japanese Quran Translation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B3986D21FFCFBA6000FF1F3 /* Build configuration list for PBXProject "Japanese Quran Translation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3986FD1FFCFBA6000FF1F3 /* Debug */,
+				8B3986FE1FFCFBA6000FF1F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3986FF1FFCFBA6000FF1F3 /* Build configuration list for PBXNativeTarget "Japanese Quran Translation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3987001FFCFBA6000FF1F3 /* Debug */,
+				8B3987011FFCFBA6000FF1F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3987021FFCFBA6000FF1F3 /* Build configuration list for PBXNativeTarget "Japanese Quran TranslationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3987031FFCFBA6000FF1F3 /* Debug */,
+				8B3987041FFCFBA6000FF1F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3987051FFCFBA6000FF1F3 /* Build configuration list for PBXNativeTarget "Japanese Quran TranslationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3987061FFCFBA6000FF1F3 /* Debug */,
+				8B3987071FFCFBA6000FF1F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B3986CF1FFCFBA6000FF1F3 /* Project object */;
+}

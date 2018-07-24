@@ -1,0 +1,6 @@
+framework module Pods_Japanese_Quran_Translation {
+  umbrella header "Pods-Japanese Quran Translation-umbrella.h"
+
+  export *
+  module * { export * }
+}
